@@ -1,0 +1,79 @@
+{
+  "_from": "prismarine-world@^3.1.0",
+  "_id": "prismarine-world@3.1.1",
+  "_inBundle": false,
+  "_integrity": "sha512-7e890NjOD/D1sWn4BxEljo5WqZfuskR8Q/kttAlq0pW7vmkHTVDxAcKRPwngvBLYyfEe8cczI39sj25laBrGog==",
+  "_location": "/prismarine-world",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "prismarine-world@^3.1.0",
+    "name": "prismarine-world",
+    "escapedName": "prismarine-world",
+    "rawSpec": "^3.1.0",
+    "saveSpec": null,
+    "fetchSpec": "^3.1.0"
+  },
+  "_requiredBy": [
+    "/mineflayer"
+  ],
+  "_resolved": "https://registry.npmjs.org/prismarine-world/-/prismarine-world-3.1.1.tgz",
+  "_shasum": "723e9b288f632694fb0e87d16e0a472c1689c535",
+  "_spec": "prismarine-world@^3.1.0",
+  "_where": "C:\\Users\\mannu\\Downloads\\Projects\\afkbot\\node_modules\\mineflayer",
+  "author": {
+    "name": "Will Franzen",
+    "email": "wtfranzen@gmail.com",
+    "url": "http://will.xyz/"
+  },
+  "bugs": {
+    "url": "https://github.com/PrismarineJS/prismarine-world/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "event-promise": "0.0.1",
+    "vec3": "~0.1.3"
+  },
+  "deprecated": false,
+  "description": "The core implementation of the world for prismarine",
+  "devDependencies": {
+    "buffer-equal": "^1.0.0",
+    "flatmap": "0.0.3",
+    "jest": "^26.0.1",
+    "minecraft-data": "^2.47.0",
+    "mkdirp": "^0.5.1",
+    "prismarine-chunk": "^1.14.0",
+    "prismarine-provider-anvil": "^2.0.0",
+    "prismarine-provider-raw": "^1.0.1",
+    "range": "0.0.3",
+    "rimraf": "^3.0.2",
+    "standard": "^14.0.1"
+  },
+  "engines": {
+    "nodejs": ">=8.0.0"
+  },
+  "enginesStrict": true,
+  "homepage": "https://github.com/PrismarineJS/prismarine-world",
+  "keywords": [
+    "prismarine",
+    "minecraft",
+    "world",
+    "voxel",
+    "game"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "prismarine-world",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PrismarineJS/prismarine-world.git"
+  },
+  "scripts": {
+    "fix": "standard --fix",
+    "lint": "standard",
+    "pretest": "npm run lint",
+    "test": "jest --verbose"
+  },
+  "version": "3.1.1"
+}

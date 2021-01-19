@@ -1,0 +1,64 @@
+{
+  "_from": "prismarine-biome@^1.1.0",
+  "_id": "prismarine-biome@1.1.1",
+  "_inBundle": false,
+  "_integrity": "sha512-JkX1CcIDR538j5Qj3pbLCTB2LsGukNOudWbk4niQ93a3fItLVJkPnY9H3/uxpVz2PIQxhmaAXVRaYWj6M9C2Bw==",
+  "_location": "/prismarine-biome",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "prismarine-biome@^1.1.0",
+    "name": "prismarine-biome",
+    "escapedName": "prismarine-biome",
+    "rawSpec": "^1.1.0",
+    "saveSpec": null,
+    "fetchSpec": "^1.1.0"
+  },
+  "_requiredBy": [
+    "/mineflayer",
+    "/prismarine-block"
+  ],
+  "_resolved": "https://registry.npmjs.org/prismarine-biome/-/prismarine-biome-1.1.1.tgz",
+  "_shasum": "865f80fb94293e6e5be66c9f5f826323564ad2e0",
+  "_spec": "prismarine-biome@^1.1.0",
+  "_where": "C:\\Users\\mannu\\Downloads\\Projects\\afkbot\\node_modules\\mineflayer",
+  "author": {
+    "name": "Romain Beaumont",
+    "email": "romain.rom1@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/PrismarineJS/prismarine-biome/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {},
+  "deprecated": false,
+  "description": "Represent a minecraft biome with its associated data",
+  "devDependencies": {
+    "minecraft-data": "^2.0.0",
+    "standard": "^14.3.4"
+  },
+  "homepage": "https://github.com/PrismarineJS/prismarine-biome#readme",
+  "keywords": [
+    "biome",
+    "minecraft",
+    "prismarine"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "prismarine-biome",
+  "peerDependencies": {
+    "minecraft-data": "^2.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PrismarineJS/prismarine-biome.git"
+  },
+  "scripts": {
+    "fix": "standard --fix",
+    "lint": "standard",
+    "test": "npm run lint"
+  },
+  "typings": "index.d.ts",
+  "version": "1.1.1"
+}

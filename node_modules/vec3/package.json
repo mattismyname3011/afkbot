@@ -1,0 +1,54 @@
+{
+  "_from": "vec3@^0.1.6",
+  "_id": "vec3@0.1.7",
+  "_inBundle": false,
+  "_integrity": "sha512-EZSeXBL+L3go2wWwtQQse4fEcNGIQjT14qvi4LYVj1ifZt/J5XZ1QZqkDuOVVH07YwTEIFbsAv3pzwUpF7x9Wg==",
+  "_location": "/vec3",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "vec3@^0.1.6",
+    "name": "vec3",
+    "escapedName": "vec3",
+    "rawSpec": "^0.1.6",
+    "saveSpec": null,
+    "fetchSpec": "^0.1.6"
+  },
+  "_requiredBy": [
+    "/mineflayer",
+    "/prismarine-chunk",
+    "/prismarine-entity",
+    "/prismarine-physics",
+    "/prismarine-world"
+  ],
+  "_resolved": "https://registry.npmjs.org/vec3/-/vec3-0.1.7.tgz",
+  "_shasum": "e203a7bcc2d074c328721421beed48b30c81e41b",
+  "_spec": "vec3@^0.1.6",
+  "_where": "C:\\Users\\mannu\\Downloads\\Projects\\afkbot\\node_modules\\mineflayer",
+  "author": {
+    "name": "Andrew Kelley"
+  },
+  "bundleDependencies": false,
+  "dependencies": {},
+  "deprecated": false,
+  "description": "3d vector math with good unit tests",
+  "devDependencies": {
+    "mocha": "^7.2.0",
+    "standard": "^14.3.4"
+  },
+  "keywords": [
+    "point"
+  ],
+  "license": "BSD",
+  "main": "index.js",
+  "name": "vec3",
+  "scripts": {
+    "fix": "standard --fix",
+    "lint": "standard",
+    "pretest": "npm run lint",
+    "test": "mocha --reporter spec"
+  },
+  "types": "index.d.ts",
+  "version": "0.1.7"
+}

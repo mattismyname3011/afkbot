@@ -1,0 +1,59 @@
+{
+  "_from": "@xboxreplay/errors@^0.1.0",
+  "_id": "@xboxreplay/errors@0.1.0",
+  "_inBundle": false,
+  "_integrity": "sha512-Tgz1d/OIPDWPeyOvuL5+aai5VCcqObhPnlI3skQuf80GVF3k1I0lPCnGC+8Cm5PV9aLBT5m8qPcJoIUQ2U4y9g==",
+  "_location": "/@xboxreplay/errors",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "@xboxreplay/errors@^0.1.0",
+    "name": "@xboxreplay/errors",
+    "escapedName": "@xboxreplay%2ferrors",
+    "scope": "@xboxreplay",
+    "rawSpec": "^0.1.0",
+    "saveSpec": null,
+    "fetchSpec": "^0.1.0"
+  },
+  "_requiredBy": [
+    "/@xboxreplay/xboxlive-auth"
+  ],
+  "_resolved": "https://registry.npmjs.org/@xboxreplay/errors/-/errors-0.1.0.tgz",
+  "_shasum": "e8daceb3c88c104872301d4193f54dc141a8d35a",
+  "_spec": "@xboxreplay/errors@^0.1.0",
+  "_where": "C:\\Users\\mannu\\Downloads\\Projects\\afkbot\\node_modules\\@xboxreplay\\xboxlive-auth",
+  "author": {
+    "name": "Alexis Bize",
+    "email": "alexis.bize@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/XboxReplay/errors/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "Common package used by `@xboxreplay` modules.",
+  "devDependencies": {
+    "@types/node": "^12.0.10",
+    "typescript": "^3.5.2"
+  },
+  "homepage": "https://github.com/XboxReplay/errors#readme",
+  "keywords": [
+    "xboxreplay"
+  ],
+  "license": "MIT",
+  "main": "./dist/index.js",
+  "name": "@xboxreplay/errors",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/XboxReplay/errors.git"
+  },
+  "scripts": {
+    "build": "npm run clean && ./node_modules/.bin/tsc",
+    "clean": "rm -rf ./dist",
+    "prepublishOnly": "npm run test && npm run build",
+    "test": "echo \"No tests specified\""
+  },
+  "types": "./index.d.ts",
+  "version": "0.1.0"
+}

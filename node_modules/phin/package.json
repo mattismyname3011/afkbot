@@ -1,0 +1,72 @@
+{
+  "_from": "phin@^3.4.1",
+  "_id": "phin@3.5.1",
+  "_inBundle": false,
+  "_integrity": "sha512-jgFO28IaiWAl0xk+zmqVx7neKVokWKU8YTQC5QlB45SZnEE53LH2saqJIcyIV557VX3Gk+TdR4rwWTc3P83DSA==",
+  "_location": "/phin",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "phin@^3.4.1",
+    "name": "phin",
+    "escapedName": "phin",
+    "rawSpec": "^3.4.1",
+    "saveSpec": null,
+    "fetchSpec": "^3.4.1"
+  },
+  "_requiredBy": [
+    "/yggdrasil"
+  ],
+  "_resolved": "https://registry.npmjs.org/phin/-/phin-3.5.1.tgz",
+  "_shasum": "41ce07aa7eb23b1f7ded89fc00a464addddac972",
+  "_spec": "phin@^3.4.1",
+  "_where": "C:\\Users\\mannu\\Downloads\\Projects\\afkbot\\node_modules\\yggdrasil",
+  "author": {
+    "name": "Ethan Davis"
+  },
+  "bugs": {
+    "url": "https://github.com/ethanent/phin/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "centra": "^2.4.2"
+  },
+  "deprecated": false,
+  "description": "The ultra-lightweight Node.js HTTP client",
+  "devDependencies": {
+    "jsdoc": "^3.5.5",
+    "whew": "^1.1.3"
+  },
+  "engines": {
+    "node": ">= 8"
+  },
+  "files": [
+    "lib/phin.js",
+    "types.d.ts"
+  ],
+  "homepage": "https://github.com/ethanent/phin",
+  "keywords": [
+    "http",
+    "https",
+    "request",
+    "fetch",
+    "ajax",
+    "url",
+    "uri"
+  ],
+  "license": "MIT",
+  "main": "lib/phin.js",
+  "name": "phin",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ethanent/phin.git"
+  },
+  "scripts": {
+    "gendocs": "rm -r docs || true && jsdoc -R README.md -d ./docs lib/phin.js",
+    "prepublishOnly": "npm test",
+    "test": "node ./tests/test.js"
+  },
+  "types": "types.d.ts",
+  "version": "3.5.1"
+}

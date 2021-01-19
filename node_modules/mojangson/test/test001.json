@@ -1,0 +1,89 @@
+{
+  "id": "minecraft:diamond_pickaxe",
+  "tag": {
+    "display": {
+      "Name": {
+        "text": "Кирка хлебушка"
+      },
+      "Lore": [
+        {
+          "text": "MLG PICKAXE DORITOS 420NOSCOPEBLAZEIT"
+        },
+        {
+          "text": "OH BABY A TRIPLE MOM GET THE CAMERA"
+        }
+      ]
+    },
+    "Enchantments": [
+      {
+        "id": "minecraft:efficiency",
+        "lvl": 20
+      },
+      {
+        "id": "minecraft:fire_aspect",
+        "lvl": 2
+      },
+      {
+        "id": "minecraft:fortune",
+        "lvl": 10
+      },
+      {
+        "id": "minecraft:knockback",
+        "lvl": 16959
+      },
+      {
+        "id": "minecraft:looting",
+        "lvl": 10
+      },
+      {
+        "id": "minecraft:sharpness",
+        "lvl": 16959
+      },
+      {
+        "id": "minecraft:silk_touch",
+        "lvl": 1
+      },
+      {
+        "id": "minecraft:smite",
+        "lvl": 16959
+      }
+    ],
+    "Unbreakable": 1,
+    "Damage": 0,
+    "AttributeModifiers": [
+      {
+        "Name": "generic.maxHealth",
+        "AttributeName": "generic.maxHealth",
+        "Operation": 0,
+        "UUIDMost": 0,
+        "UUIDLeast": 0,
+        "Amount": 20
+      },
+      {
+        "Name": "generic.movementSpeed",
+        "AttributeName": "generic.movementSpeed",
+        "Operation": 0,
+        "UUIDMost": 0,
+        "UUIDLeast": 0,
+        "Amount": 2
+      },
+      {
+        "Name": "generic.knockbackResistance",
+        "AttributeName": "generic.knockbackResistance",
+        "Operation": 0,
+        "UUIDMost": 0,
+        "UUIDLeast": 0,
+        "Amount": 0.2
+      },
+      {
+        "Name": "generic.attackDamage",
+        "AttributeName": "generic.attackDamage",
+        "Operation": 0,
+        "UUIDMost": 0,
+        "UUIDLeast": 0,
+        "Amount": 0
+      }
+    ]
+  },
+  "Count": 1
+}

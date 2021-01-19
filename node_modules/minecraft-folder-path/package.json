@@ -1,0 +1,58 @@
+{
+  "_from": "minecraft-folder-path@^1.1.0",
+  "_id": "minecraft-folder-path@1.1.0",
+  "_inBundle": false,
+  "_integrity": "sha512-Qee3g4DjXIPdioUtXPXrsrIBb2CqC+dS9LD9yoWVhHEJo+c0xbzndHE0k9KWVJDo+sK3Kb106V0Xvsov9vqQMw==",
+  "_location": "/minecraft-folder-path",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "minecraft-folder-path@^1.1.0",
+    "name": "minecraft-folder-path",
+    "escapedName": "minecraft-folder-path",
+    "rawSpec": "^1.1.0",
+    "saveSpec": null,
+    "fetchSpec": "^1.1.0"
+  },
+  "_requiredBy": [
+    "/minecraft-protocol"
+  ],
+  "_resolved": "https://registry.npmjs.org/minecraft-folder-path/-/minecraft-folder-path-1.1.0.tgz",
+  "_shasum": "a5865efac1e529bbaa886668fb08d03f5052bf93",
+  "_spec": "minecraft-folder-path@^1.1.0",
+  "_where": "C:\\Users\\mannu\\Downloads\\Projects\\afkbot\\node_modules\\minecraft-protocol",
+  "author": {
+    "name": "Simon Meusel"
+  },
+  "bugs": {
+    "url": "https://github.com/simonmeusel/minecraft-folder-path/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "user-settings-dir": "0.0.3"
+  },
+  "deprecated": false,
+  "description": "NPM package for retrieving the minecraft folder path",
+  "homepage": "https://github.com/simonmeusel/minecraft-folder-path#readme",
+  "keywords": [
+    "Minecraft",
+    "Folder",
+    "Path",
+    ".minecraft",
+    "osx",
+    "windows",
+    "linux"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "minecraft-folder-path",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/simonmeusel/minecraft-folder-path.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.1.0"
+}

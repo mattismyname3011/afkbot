@@ -1,0 +1,56 @@
+{
+  "_from": "promise@^5.0.0",
+  "_id": "promise@5.0.0",
+  "_inBundle": false,
+  "_integrity": "sha1-rEC3hmvteq95arW3m4AyXgR+wO8=",
+  "_location": "/promise",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "promise@^5.0.0",
+    "name": "promise",
+    "escapedName": "promise",
+    "rawSpec": "^5.0.0",
+    "saveSpec": null,
+    "fetchSpec": "^5.0.0"
+  },
+  "_requiredBy": [
+    "/event-promise"
+  ],
+  "_resolved": "https://registry.npmjs.org/promise/-/promise-5.0.0.tgz",
+  "_shasum": "ac40b7866bed7aaf796ab5b79b80325e047ec0ef",
+  "_spec": "promise@^5.0.0",
+  "_where": "C:\\Users\\mannu\\Downloads\\Projects\\afkbot\\node_modules\\event-promise",
+  "author": {
+    "name": "ForbesLindesay"
+  },
+  "bugs": {
+    "url": "https://github.com/then/promise/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "asap": "~1.0.0"
+  },
+  "deprecated": false,
+  "description": "Bare bones Promises/A+ implementation",
+  "devDependencies": {
+    "better-assert": "*",
+    "mocha": "*",
+    "promises-aplus-tests": "*"
+  },
+  "homepage": "https://github.com/then/promise#readme",
+  "license": "MIT",
+  "main": "index.js",
+  "name": "promise",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/then/promise.git"
+  },
+  "scripts": {
+    "test": "mocha -R spec --timeout 200 --slow 99999",
+    "test-extensions": "mocha test/extensions-tests.js -R spec --timeout 200 --slow 999999",
+    "test-resolve": "mocha test/resolver-tests.js -R spec --timeout 200 --slow 999999"
+  },
+  "version": "5.0.0"
+}

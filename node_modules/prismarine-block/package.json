@@ -1,0 +1,68 @@
+{
+  "_from": "prismarine-block@^1.6.0",
+  "_id": "prismarine-block@1.7.2",
+  "_inBundle": false,
+  "_integrity": "sha512-4ZBlGvIwC1k2Ig8hxVSX11wjLKhBq6u4fg9Y4IfbYKCtUnUiSVZzVTY0N3wNfWARcj8fofqH0UjQt4REjydqlA==",
+  "_location": "/prismarine-block",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "prismarine-block@^1.6.0",
+    "name": "prismarine-block",
+    "escapedName": "prismarine-block",
+    "rawSpec": "^1.6.0",
+    "saveSpec": null,
+    "fetchSpec": "^1.6.0"
+  },
+  "_requiredBy": [
+    "/mineflayer",
+    "/prismarine-chunk"
+  ],
+  "_resolved": "https://registry.npmjs.org/prismarine-block/-/prismarine-block-1.7.2.tgz",
+  "_shasum": "01216105d694dd1b176bb88d91a085f459e07a81",
+  "_spec": "prismarine-block@^1.6.0",
+  "_where": "C:\\Users\\mannu\\Downloads\\Projects\\afkbot\\node_modules\\mineflayer",
+  "author": {
+    "name": "Romain Beaumont",
+    "email": "romain.rom1@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/PrismarineJS/prismarine-block/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "prismarine-biome": "^1.1.0"
+  },
+  "deprecated": false,
+  "description": "Represent a minecraft block with its associated data",
+  "devDependencies": {
+    "jest": "^26.1.0",
+    "minecraft-data": "^2.62.1",
+    "standard": "^16.0.1",
+    "vec3": "^0.1.4"
+  },
+  "homepage": "https://github.com/PrismarineJS/prismarine-block#readme",
+  "keywords": [
+    "prismarine",
+    "minecraft",
+    "block"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "prismarine-block",
+  "peerDependencies": {
+    "minecraft-data": "^2.62.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PrismarineJS/prismarine-block.git"
+  },
+  "scripts": {
+    "fix": "standard --fix",
+    "lint": "standard",
+    "pretest": "npm run lint",
+    "test": "jest --verbose"
+  },
+  "version": "1.7.2"
+}

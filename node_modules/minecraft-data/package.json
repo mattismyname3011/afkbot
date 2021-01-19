@@ -1,0 +1,76 @@
+{
+  "_from": "minecraft-data@^2.70.0",
+  "_id": "minecraft-data@2.70.2",
+  "_inBundle": false,
+  "_integrity": "sha512-BM7I0/pbe4dyl9lgshGf/KtIhq6aHoED+7ByRb68dJgK988UHSmwAde4k3UCX3RMKM3dr+Tprs91wAxC2YuGwQ==",
+  "_location": "/minecraft-data",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "minecraft-data@^2.70.0",
+    "name": "minecraft-data",
+    "escapedName": "minecraft-data",
+    "rawSpec": "^2.70.0",
+    "saveSpec": null,
+    "fetchSpec": "^2.70.0"
+  },
+  "_requiredBy": [
+    "/minecraft-protocol",
+    "/mineflayer",
+    "/prismarine-chat",
+    "/prismarine-chunk"
+  ],
+  "_resolved": "https://registry.npmjs.org/minecraft-data/-/minecraft-data-2.70.2.tgz",
+  "_shasum": "83f20c4e9f7689e72abb7dd154446f4424a37b3f",
+  "_spec": "minecraft-data@^2.70.0",
+  "_where": "C:\\Users\\mannu\\Downloads\\Projects\\afkbot\\node_modules\\mineflayer",
+  "author": {
+    "name": "Romain Beaumont",
+    "email": "romain.rom1@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/PrismarineJS/node-minecraft-data/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {},
+  "deprecated": false,
+  "description": "Provide easy access to minecraft data in node.js",
+  "devDependencies": {
+    "@types/node": "^14.0.14",
+    "json-schema-to-typescript": "^9.1.0",
+    "mocha": "^8.0.1",
+    "require-self": "^0.2.3",
+    "standard": "^16.0.1",
+    "typescript": "^4.0.2"
+  },
+  "homepage": "https://github.com/PrismarineJS/node-minecraft-data#readme",
+  "keywords": [
+    "minecraft",
+    "data",
+    "node.js"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "minecraft-data",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/PrismarineJS/node-minecraft-data.git"
+  },
+  "scripts": {
+    "fix": "standard --fix",
+    "generate:data": "./bin/generate_data.js",
+    "generate:types": "node typings/generate-typings.js",
+    "lint": "standard",
+    "prepublish": "require-self && npm run generate:data && npm run generate:types",
+    "test": "require-self && npm run generate:data && npm run lint && npm run test:types && mocha",
+    "test:types": "tsc typings/test-typings && node typings/test-typings.js"
+  },
+  "standard": {
+    "ignore": [
+      "minecraft-data/**/*.js"
+    ]
+  },
+  "tonicExampleFilename": "example.js",
+  "version": "2.70.2"
+}

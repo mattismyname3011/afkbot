@@ -1,0 +1,78 @@
+{
+  "_from": "mineflayer",
+  "_id": "mineflayer@2.37.1",
+  "_inBundle": false,
+  "_integrity": "sha512-ngPwqHxvVljWxhpeW9E4BpGJ4uKmaSEyRoM9l0mvzR6RjyAvbajesVAw47T2f2FTpY61/iwbkrDQhPzUDEUnQw==",
+  "_location": "/mineflayer",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "mineflayer",
+    "name": "mineflayer",
+    "escapedName": "mineflayer",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/mineflayer/-/mineflayer-2.37.1.tgz",
+  "_shasum": "115b7c77ab4584c488003c5aefb3f62acb991d92",
+  "_spec": "mineflayer",
+  "_where": "C:\\Users\\mannu\\Downloads\\Projects\\afkbot",
+  "bugs": {
+    "url": "https://github.com/PrismarineJS/mineflayer/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "minecraft-data": "^2.70.0",
+    "minecraft-protocol": "^1.17.0",
+    "prismarine-biome": "^1.1.0",
+    "prismarine-block": "^1.6.0",
+    "prismarine-chat": "^1.0.0",
+    "prismarine-chunk": "^1.20.3",
+    "prismarine-entity": "^1.0.0",
+    "prismarine-item": "^1.5.0",
+    "prismarine-physics": "^1.0.4",
+    "prismarine-recipe": "^1.1.0",
+    "prismarine-windows": "^1.5.0",
+    "prismarine-world": "^3.1.0",
+    "protodef": "^1.8.0",
+    "typed-emitter": "^1.2.0",
+    "vec3": "^0.1.6"
+  },
+  "deprecated": false,
+  "description": "create minecraft bots with a stable, high level API",
+  "devDependencies": {
+    "@types/node": "^14.0.1",
+    "doctoc": "^1.0.0",
+    "minecraft-wrap": "^1.2.1",
+    "mocha": "^8.0.1",
+    "require-self": "^0.2.3",
+    "standard": "^16.0.1"
+  },
+  "engines": {
+    "node": ">=12"
+  },
+  "homepage": "https://github.com/PrismarineJS/mineflayer#readme",
+  "license": "MIT",
+  "main": "index.js",
+  "name": "mineflayer",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/PrismarineJS/mineflayer.git"
+  },
+  "scripts": {
+    "fix": "standard --fix",
+    "lint": "standard",
+    "prepare": "npm install require-self && require-self",
+    "prepublishOnly": "cp docs/README.md README.md",
+    "pretest": "npm run lint && require-self",
+    "test": "mocha --reporter spec --exit"
+  },
+  "types": "index.d.ts",
+  "version": "2.37.1"
+}

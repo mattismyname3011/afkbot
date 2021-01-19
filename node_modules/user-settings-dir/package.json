@@ -1,0 +1,43 @@
+{
+  "_from": "user-settings-dir@0.0.3",
+  "_id": "user-settings-dir@0.0.3",
+  "_inBundle": false,
+  "_integrity": "sha1-mgLCvhLNbTQldHc5v4soTIHvqXc=",
+  "_location": "/user-settings-dir",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "user-settings-dir@0.0.3",
+    "name": "user-settings-dir",
+    "escapedName": "user-settings-dir",
+    "rawSpec": "0.0.3",
+    "saveSpec": null,
+    "fetchSpec": "0.0.3"
+  },
+  "_requiredBy": [
+    "/minecraft-folder-path"
+  ],
+  "_resolved": "https://registry.npmjs.org/user-settings-dir/-/user-settings-dir-0.0.3.tgz",
+  "_shasum": "9a02c2be12cd6d3425747739bf8b284c81efa977",
+  "_spec": "user-settings-dir@0.0.3",
+  "_where": "C:\\Users\\mannu\\Downloads\\Projects\\afkbot\\node_modules\\minecraft-folder-path",
+  "author": {
+    "name": "Maximiliano Korp"
+  },
+  "bugs": {
+    "url": "https://github.com/maxkorp/user-settings-dir/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "Gets the directory to use for application settings for a user on different operating systems",
+  "homepage": "https://github.com/maxkorp/user-settings-dir",
+  "license": "MIT",
+  "main": "index.js",
+  "name": "user-settings-dir",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maxkorp/user-settings-dir.git"
+  },
+  "version": "0.0.3"
+}

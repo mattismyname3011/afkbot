@@ -1,0 +1,50 @@
+{
+  "_from": "event-promise@0.0.1",
+  "_id": "event-promise@0.0.1",
+  "_inBundle": false,
+  "_integrity": "sha1-7lmd9hNyaxLPhXTncU20gjx9uHc=",
+  "_location": "/event-promise",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "event-promise@0.0.1",
+    "name": "event-promise",
+    "escapedName": "event-promise",
+    "rawSpec": "0.0.1",
+    "saveSpec": null,
+    "fetchSpec": "0.0.1"
+  },
+  "_requiredBy": [
+    "/prismarine-world"
+  ],
+  "_resolved": "https://registry.npmjs.org/event-promise/-/event-promise-0.0.1.tgz",
+  "_shasum": "ee599df613726b12cf8574e7714db4823c7db877",
+  "_spec": "event-promise@0.0.1",
+  "_where": "C:\\Users\\mannu\\Downloads\\Projects\\afkbot\\node_modules\\prismarine-world",
+  "author": {
+    "name": "Anders Cornell",
+    "email": "rschaosid@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/rschaosid/node-event-promise/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "promise": "^5.0.0"
+  },
+  "deprecated": false,
+  "description": "promises for events",
+  "homepage": "https://github.com/rschaosid/node-event-promise",
+  "keywords": [
+    "once"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "event-promise",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rschaosid/node-event-promise.git"
+  },
+  "version": "0.0.1"
+}

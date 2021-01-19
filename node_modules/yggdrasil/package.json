@@ -1,0 +1,64 @@
+{
+  "_from": "yggdrasil@^1.4.0",
+  "_id": "yggdrasil@1.4.0",
+  "_inBundle": false,
+  "_integrity": "sha512-pN4OFtvJ4WnbvGe6dSsOUx8C6I19Tzv2hVCcoIjekFOuL9zWc7C993z3STmCI6NuWVAgtQsLv+ciNVOWHIL/pA==",
+  "_location": "/yggdrasil",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "yggdrasil@^1.4.0",
+    "name": "yggdrasil",
+    "escapedName": "yggdrasil",
+    "rawSpec": "^1.4.0",
+    "saveSpec": null,
+    "fetchSpec": "^1.4.0"
+  },
+  "_requiredBy": [
+    "/minecraft-protocol"
+  ],
+  "_resolved": "https://registry.npmjs.org/yggdrasil/-/yggdrasil-1.4.0.tgz",
+  "_shasum": "343525da10e4d8f45f78f4d4c76fc17ceb18dd1f",
+  "_spec": "yggdrasil@^1.4.0",
+  "_where": "C:\\Users\\mannu\\Downloads\\Projects\\afkbot\\node_modules\\minecraft-protocol",
+  "author": {
+    "name": "Zeke Sonxx",
+    "email": "zeke@zekesonxx.com"
+  },
+  "bugs": {
+    "url": "https://github.com/PrismarineJS/node-yggdrasil/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "phin": "^3.4.1",
+    "uuid": "^8.2.0"
+  },
+  "deprecated": false,
+  "description": "Mojang authentication (Yggdrasil) client",
+  "devDependencies": {
+    "mocha": "^7.0.1",
+    "nock": "^13.0.2",
+    "standard": "^16.0.1"
+  },
+  "homepage": "https://github.com/PrismarineJS/node-yggdrasil#readme",
+  "keywords": [
+    "minecraft",
+    "yggdrasil",
+    "authentication"
+  ],
+  "license": "MIT",
+  "main": "./lib/index",
+  "name": "yggdrasil",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PrismarineJS/node-yggdrasil.git"
+  },
+  "scripts": {
+    "fix": "standard --fix",
+    "lint": "standard",
+    "pretest": "npm run lint",
+    "test": "mocha -R spec"
+  },
+  "version": "1.4.0"
+}

@@ -1,0 +1,69 @@
+{
+  "_from": "prismarine-physics@^1.0.4",
+  "_id": "prismarine-physics@1.0.8",
+  "_inBundle": false,
+  "_integrity": "sha512-3G0SsojMhA0IUEmU4RJ7ZsfUwsTp0eBmM/ql9Hfu+/SXRdOBtn6vn11lkxzj+gLkX0tnjOAz9UxIFgpV1EQSbA==",
+  "_location": "/prismarine-physics",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "prismarine-physics@^1.0.4",
+    "name": "prismarine-physics",
+    "escapedName": "prismarine-physics",
+    "rawSpec": "^1.0.4",
+    "saveSpec": null,
+    "fetchSpec": "^1.0.4"
+  },
+  "_requiredBy": [
+    "/mineflayer"
+  ],
+  "_resolved": "https://registry.npmjs.org/prismarine-physics/-/prismarine-physics-1.0.8.tgz",
+  "_shasum": "3ecd0720bbc74034e1a9f894dfcd69aec0d87335",
+  "_spec": "prismarine-physics@^1.0.4",
+  "_where": "C:\\Users\\mannu\\Downloads\\Projects\\afkbot\\node_modules\\mineflayer",
+  "author": {
+    "name": "Romain Beaumont"
+  },
+  "bugs": {
+    "url": "https://github.com/PrismarineJS/prismarine-physics/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "prismarine-nbt": "^1.3.0",
+    "vec3": "^0.1.6"
+  },
+  "deprecated": false,
+  "description": "Provide the physics engine for minecraft entities",
+  "devDependencies": {
+    "jest": "^26.1.0",
+    "minecraft-data": "^2.67.0",
+    "prismarine-block": "^1.7.1",
+    "require-self": "^0.2.3",
+    "standard": "^14.3.4"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "homepage": "https://github.com/PrismarineJS/prismarine-physics#readme",
+  "keywords": [
+    "physics",
+    "prismarine",
+    "minecraft"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "prismarine-physics",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PrismarineJS/prismarine-physics.git"
+  },
+  "scripts": {
+    "fix": "standard --fix",
+    "lint": "standard",
+    "prepare": "npm install require-self && require-self",
+    "pretest": "npm run lint && require-self",
+    "test": "jest --verbose"
+  },
+  "version": "1.0.8"
+}

@@ -1,0 +1,61 @@
+{
+  "_from": "mojangson@^1.0.0",
+  "_id": "mojangson@1.1.1",
+  "_inBundle": false,
+  "_integrity": "sha512-CVZDJdiiLOibTBfzpDz1m7QfWlna9yOwaVTz+wHARtlc/nb9QFLvP8OWAqaPQ14ETa4pDRGhWVN9O8pjsPjEcg==",
+  "_location": "/mojangson",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "mojangson@^1.0.0",
+    "name": "mojangson",
+    "escapedName": "mojangson",
+    "rawSpec": "^1.0.0",
+    "saveSpec": null,
+    "fetchSpec": "^1.0.0"
+  },
+  "_requiredBy": [
+    "/prismarine-chat"
+  ],
+  "_resolved": "https://registry.npmjs.org/mojangson/-/mojangson-1.1.1.tgz",
+  "_shasum": "1e7872b559fcbfe55b03bc609c2ccca9427d261e",
+  "_spec": "mojangson@^1.0.0",
+  "_where": "C:\\Users\\mannu\\Downloads\\Projects\\afkbot\\node_modules\\prismarine-chat",
+  "author": {
+    "name": "Romain Beaumont",
+    "email": "romain.rom1@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/rom1504/node-mojangson/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "nearley": "^2.19.5"
+  },
+  "deprecated": false,
+  "description": "A mojangson parser written in node.js",
+  "devDependencies": {
+    "mocha": "^7.1.2",
+    "standard": "^14.3.4"
+  },
+  "homepage": "https://github.com/rom1504/node-mojangson#readme",
+  "keywords": [
+    "mojangson"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "mojangson",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/rom1504/node-mojangson.git"
+  },
+  "scripts": {
+    "fix": "standard --fix",
+    "lint": "standard",
+    "prepublish": "nearleyc grammar.ne -o grammar.js",
+    "pretest": "npm run lint",
+    "test": "mocha --reporter spec"
+  },
+  "version": "1.1.1"
+}
